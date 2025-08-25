@@ -112,16 +112,3 @@ Assistant: Sorry, I cannot handle multiple tasks yet.
 5.  You: Translate 'Sunshine' into German.
     Assistant:
     Translation: 'Sunshine' → Sonnenschein
-
-### Project Structure
-project/
-│── chatbot.py                  # Level 1 implementation
-│── chatbot_with_tool.py        # Level 2 implementation
-│── full_agent.py               # Level 3 implementation (multi-step agent)
-│── calculator_tool.py          # Calculator tool
-│── translator_tool.py          # Translator tool
-│── interaction_logs_level1.txt
-│── interaction_logs_level2.txt
-│── interaction_logs_level3.txt
-│── README.md
-│── .env                        # Contains GEMINI_API_KEY
