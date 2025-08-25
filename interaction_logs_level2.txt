@@ -1,0 +1,16 @@
+Smart Assistant (Level 2 - With Calculator Tool)
+Type 'exit' to quit.
+
+You: What is 12 times 7?
+Assistant: Using calculator tool... Result = 84
+
+You: Add 45 and 30
+Assistant: Using calculator tool... Result = 75
+
+You: What is the capital of France?
+Assistant:
+1. The capital of France is Paris.
+2. It is the largest city in France and a major European center.
+
+You: Multiply 9 and 8, and also tell me the capital of Japan.
+Assistant: Sorry, I cannot handle multiple tasks yet.

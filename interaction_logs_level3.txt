@@ -1,0 +1,33 @@
+Smart Assistant (Level 3 - Multi-Step Agent)
+Type 'exit' to quit.
+
+---
+
+You: Translate 'Good Morning' into German and then multiply 5 and 6.
+Sub-queries detected: ["translate 'good morning' into german", "multiply 5 and 6"]
+Assistant:
+Translation: 'Good Morning' → Guten Morgen
+Math Result: 30
+
+---
+
+You: Add 10 and 20, then translate 'Have a nice day' into German.
+Sub-queries detected: ["add 10 and 20", "translate 'have a nice day' into german"]
+Assistant:
+Math Result: 30
+Translation: 'Have a nice day' → Einen schönen Tag noch
+
+---
+
+You: What is the capital of Japan and multiply 8 and 9?
+Sub-queries detected: ["what is the capital of japan", "multiply 8 and 9"]
+Assistant:
+General Knowledge: The capital of Japan is Tokyo.
+Math Result: 72
+
+---
+
+You: Translate 'Sunshine' into German.
+Sub-queries detected: ["translate 'sunshine' into german"]
+Assistant:
+Translation: 'Sunshine' → Sonnenschein
